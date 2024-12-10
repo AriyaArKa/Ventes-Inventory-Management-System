@@ -3,18 +3,16 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.SplitPane?>
-<?import javafx.scene.control.Tooltip?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
-
-<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1197.0" stylesheets="@../css/base.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.BaseController">
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1197.0" stylesheets="@../css/base.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.BaseController">
   <items>
     <AnchorPane id="leftPane" fx:id="paneLeft" maxWidth="280.0" minHeight="0.0" minWidth="75.0" prefHeight="454.0" prefWidth="238.0" stylesheets="@../css/base.css">
          <children>
@@ -120,29 +118,29 @@
                   </JFXButton>
                   <AnchorPane fx:id="paneAccountSection" layoutX="8.0" layoutY="449.0" prefHeight="109.0" prefWidth="229.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0">
                      <children>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="65.0" prefHeight="21.0" prefWidth="83.0" text="Access Level:" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="62.199999999999996" layoutY="61.0" prefHeight="23.0" prefWidth="113.0" text="Access Level : " textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="62.199999999999996" AnchorPane.rightAnchor="100.20000000000005">
                            <font>
-                              <Font name="System Bold" size="12.0" />
+                              <Font name="Roboto Bold Italic" size="14.0" />
                            </font>
                         </Label>
-                        <Label fx:id="lblAccessLevel" alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="80.0" prefHeight="21.0" prefWidth="83.0" text="Level" textAlignment="CENTER" textFill="#00ff22" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                        <Label fx:id="lblAccessLevel" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="62.0" prefHeight="21.0" prefWidth="83.0" text="Level" textAlignment="CENTER" textFill="#ff9900" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="43.400000000000034">
                            <font>
-                              <Font name="System Bold" size="12.0" />
+                              <Font name="Roboto Bold" size="14.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="94.0" layoutY="29.0" prefHeight="21.0" prefWidth="83.0" text="Logged in as:" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.2" layoutY="38.0" prefHeight="22.0" prefWidth="96.0" text="Logged in as : " textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="102.0">
                            <font>
-                              <Font name="System Bold" size="12.0" />
+                              <Font name="Roboto Bold Italic" size="14.0" />
                            </font>
                         </Label>
-                        <Label fx:id="lblUsername" alignment="CENTER" contentDisplay="CENTER" layoutX="93.0" layoutY="46.0" prefHeight="21.0" prefWidth="83.0" text="username" textAlignment="CENTER" textFill="#00ff22" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+                        <Label fx:id="lblUsername" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="38.0" prefHeight="22.0" prefWidth="74.0" text="username" textAlignment="CENTER" textFill="#00ff22" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="29.00000000000003">
                            <font>
-                              <Font name="System Bold" size="12.0" />
+                              <Font name="Roboto Bold" size="14.0" />
                            </font>
                         </Label>
-                        <Label fx:id="lblClock" alignment="CENTER" contentDisplay="CENTER" layoutX="53.0" layoutY="4.0" prefHeight="21.0" prefWidth="160.0" text="Clock" textAlignment="CENTER" textFill="#03d1ff" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="53.0">
+                        <Label fx:id="lblClock" alignment="CENTER" contentDisplay="CENTER" layoutX="57.599999999999994" layoutY="10.0" prefHeight="21.0" prefWidth="160.0" text="Clock" textAlignment="CENTER" textFill="#03d1ff" AnchorPane.leftAnchor="57.599999999999994" AnchorPane.rightAnchor="57.60000000000005">
                            <font>
-                              <Font name="System Bold" size="14.0" />
+                              <Font name="Roboto Bold Italic" size="14.0" />
                            </font>
                         </Label>
                         <JFXButton alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="6.0" layoutY="30.0" onAction="#logOut" prefHeight="50.0" prefWidth="50.0" ripplerFill="WHITE" style="-fx-background-radius: 30 30 30 30; -fx-border-radius: 30 30 30 30;" AnchorPane.leftAnchor="5.0">
@@ -156,7 +154,7 @@
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </JFXButton>
-                        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="200.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="45.0" fitWidth="52.0" layoutX="13.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../icons/Accounts_main.png" />
                            </image>
@@ -179,26 +177,21 @@
                   </JFXButton>
                </children>
             </AnchorPane>
-            <ImageView fitHeight="67.0" fitWidth="69.0" layoutX="5.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0">
+            <ImageView fitHeight="56.0" fitWidth="137.0" layoutX="82.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="82.0">
                <image>
                   <Image url="@../icons/Logo.png" />
                </image>
             </ImageView>
-            <Label alignment="CENTER" layoutX="94.0" layoutY="37.0" prefHeight="21.0" prefWidth="100.0" text="Inventory" textAlignment="CENTER" textFill="WHITE">
+            <Label alignment="CENTER" layoutY="87.0" prefHeight="22.0" prefWidth="280.0" text="A Smart Inventory Management" textAlignment="CENTER" textFill="#00fff6">
                <font>
-                  <Font name="System Bold" size="15.0" />
+                  <Font name="Poppins Bold Italic" size="15.0" />
                </font>
             </Label>
             <Line endX="298.0" layoutX="-19.0" layoutY="126.0" startX="14.5" stroke="WHITE" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="0.5" />
-            <Label alignment="CENTER" layoutX="94.0" layoutY="64.0" prefHeight="21.0" prefWidth="100.0" text="System" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="15.0" />
-               </font>
-            </Label>
          </children></AnchorPane>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
          <children>
-            <AnchorPane fx:id="paneRight" layoutX="6.0" prefHeight="698.0" prefWidth="1169.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <AnchorPane fx:id="paneRight" layoutX="6.0" prefHeight="698.0" prefWidth="1169.0" style="-fx-background-color: #f8f8f0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
          </children></AnchorPane>
   </items>
 </SplitPane>
