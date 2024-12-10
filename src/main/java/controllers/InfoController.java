@@ -38,7 +38,7 @@ public class InfoController implements Initializable {
     private Label welcomeText;
     public void fetchdata(){
         try {
-            URL url = new URL("https://api.myjson.online/v1/records/351d5702-17e2-4529-900a-6596646d6c1b");
+            URL url = new URL("https://api.myjson.online/v1/records/5e458f5f-1381-492c-81e7-379d2a9ba880");
 
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
