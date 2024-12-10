@@ -64,7 +64,7 @@ public class InitializerController implements Initializable {
             base.setTitle("Inventory Management System");
             base.getIcons().add(new Image("/main/resources/icons/Logo.png"));
             base.setScene(scene);
-            base.setMaximized(true);
+            //base.setMaximized(true);
             base.show();
         } catch (IOException ex) {
             ex.printStackTrace();
