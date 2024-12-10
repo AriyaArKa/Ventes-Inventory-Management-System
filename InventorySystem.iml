@@ -54,5 +54,6 @@
     </orderEntry>
     <orderEntry type="library" exported="" name="lib" level="project" />
     <orderEntry type="library" exported="" name="controlsfx-8.40.11" level="project" />
+    <orderEntry type="library" exported="" name="lib1" level="project" />
   </component>
 </module>

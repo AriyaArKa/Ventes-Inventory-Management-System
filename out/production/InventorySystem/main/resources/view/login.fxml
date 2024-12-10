@@ -56,7 +56,7 @@
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <JFXCheckBox fx:id="chkSaveCredentials" checkedColor="#263238" layoutX="120.0" layoutY="321.0" prefHeight="18.0" prefWidth="128.0" text="Save Credentials">
+        <JFXCheckBox fx:id="chkSaveCredentials" checkedColor="#263238"   text="">
             <tooltip>
                 <Tooltip text="Save credentials for later use" />
             </tooltip>
