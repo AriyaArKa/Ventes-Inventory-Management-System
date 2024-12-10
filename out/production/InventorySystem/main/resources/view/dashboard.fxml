@@ -23,9 +23,9 @@
                <font>
                   <Font name="System Bold" size="45.0" />
                </font>
-<!--               <graphic>-->
-<!--                  <FontAwesomeIconView fill="#03d1ff" glyphName="HOME" size="70" />-->
-<!--               </graphic>-->
+               <graphic>
+                  <FontAwesomeIconView fill="#03d1ff" glyphName="HOME" size="70" />
+               </graphic>
             </Label>
             <Line endX="143.0" layoutX="300.0" layoutY="90.0" startX="448.0" stroke="#f8f8f0" AnchorPane.leftAnchor="442.5" AnchorPane.rightAnchor="420.5" />
          </children>
