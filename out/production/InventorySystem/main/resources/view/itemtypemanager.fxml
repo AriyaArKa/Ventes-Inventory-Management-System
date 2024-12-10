@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="497.0" prefWidth="865.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.ItemTypeController">
+<AnchorPane prefHeight="497.0" prefWidth="865.0" style="-fx-background-color: #C8E1F5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.ItemTypeController">
    <children>
       <Label layoutX="36.0" layoutY="231.0" prefHeight="44.0" prefWidth="88.0" text="Type Name:">
          <font>
@@ -46,12 +46,12 @@
       </JFXButton>
       <AnchorPane prefHeight="75.0" prefWidth="865.0" style="-fx-background-color: #263238;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <Label alignment="CENTER" graphicTextGap="10.0" layoutX="258.0" layoutY="7.0" prefHeight="61.0" prefWidth="349.0" text="Item Types" textFill="WHITE">
+            <Label alignment="CENTER" graphicTextGap="10.0" layoutX="258.0" layoutY="7.0" prefHeight="61.0" prefWidth="349.0" text="Item Types" textFill="03d1ff">
                <font>
                   <Font name="System Bold" size="29.0" />
                </font>
                <graphic>
-                  <FontAwesomeIconView fill="WHITE" glyphName="ASTERISK" size="35" />
+                  <FontAwesomeIconView fill="03d1ff" glyphName="ASTERISK" size="35" />
                </graphic>
             </Label>
          </children>

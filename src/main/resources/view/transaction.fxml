@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="trPane" prefHeight="519.0" prefWidth="757.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.TransactionController">
+<AnchorPane fx:id="trPane" prefHeight="519.0" prefWidth="757.0" style="-fx-background-color: #C8E1F5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.TransactionController">
    <children>
       <AnchorPane prefHeight="35.0" prefWidth="727.0" style="-fx-background-color: #263238;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
@@ -92,7 +92,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblCusID" layoutX="529.0" layoutY="227.0" prefHeight="31.0" prefWidth="183.0" text="Label" textFill="#0c9e33">
+      <Label fx:id="lblCusID" layoutX="529.0" layoutY="227.0" prefHeight="31.0" prefWidth="183.0" text="Label" textFill="#263238">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -102,7 +102,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblAmounPaid" layoutX="193.0" layoutY="354.0" prefHeight="31.0" prefWidth="183.0" text="Label" textFill="#0c9e33">
+      <Label fx:id="lblAmounPaid" layoutX="193.0" layoutY="354.0" prefHeight="31.0" prefWidth="183.0" text="Label" textFill="#263238">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

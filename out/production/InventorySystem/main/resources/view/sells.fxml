@@ -18,7 +18,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="rightPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="661.0" prefWidth="1125.0" stylesheets="/main/resources/css/sells.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.SellsController">
+<AnchorPane fx:id="rightPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="661.0" prefWidth="1125.0" stylesheets="/main/resources/css/sells.css" style= "-fx-background-color: #C8E1F5" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.SellsController">
    <children>
       <Label layoutX="58.0" layoutY="233.0" prefHeight="44.0" prefWidth="78.0" text="Customer:">
          <font>
@@ -49,7 +49,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblId" layoutX="173.0" layoutY="187.0" prefHeight="31.0" prefWidth="183.0" text="Label" textFill="#0c9e33">
+      <Label fx:id="lblId" layoutX="173.0" layoutY="187.0" prefHeight="31.0" prefWidth="183.0" text="Label" textFill="#263238">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -66,18 +66,18 @@
       </JFXTextField>
       <AnchorPane layoutX="1.0" prefHeight="85.0" prefWidth="1169.0" style="-fx-background-color: #253238;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
-            <Label alignment="CENTER" layoutX="433.0" layoutY="6.0" prefHeight="72.0" prefWidth="338.0" text="Sells" textFill="WHITE" AnchorPane.leftAnchor="433.0" AnchorPane.rightAnchor="433.0">
+            <Label alignment="CENTER" layoutX="433.0" layoutY="6.0" prefHeight="72.0" prefWidth="338.0" text="Sells" textFill="03d1ff" AnchorPane.leftAnchor="433.0" AnchorPane.rightAnchor="433.0">
                <font>
                   <Font name="System Bold" size="33.0" />
                </font>
                <graphic>
-                  <FontAwesomeIconView fill="WHITE" glyphName="LINE_CHART" size="40" />
+                  <FontAwesomeIconView fill="03d1ff" glyphName="LINE_CHART" size="40" />
                </graphic>
             </Label>
             <Line endX="143.0" layoutX="319.0" layoutY="81.0" startX="448.0" AnchorPane.leftAnchor="461.5" AnchorPane.rightAnchor="401.5" />
          </children>
       </AnchorPane>
-      <Label layoutX="42.0" layoutY="103.0" prefHeight="51.0" prefWidth="134.0" text="New" textFill="GREEN">
+      <Label layoutX="42.0" layoutY="103.0" prefHeight="51.0" prefWidth="134.0" text="New" textFill="#263238">
          <font>
             <Font size="27.0" />
          </font>
@@ -88,7 +88,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblCost" layoutX="162.0" layoutY="524.0" prefHeight="45.0" prefWidth="214.0" text="??" textFill="#0c9e33">
+      <Label fx:id="lblCost" layoutX="162.0" layoutY="524.0" prefHeight="45.0" prefWidth="214.0" text="??" textFill="#263238">
          <font>
             <Font size="30.0" />
          </font>
@@ -111,7 +111,7 @@
             <Font size="15.0" />
          </font>
       </JFXTextField>
-      <Label layoutX="421.0" layoutY="103.0" prefHeight="51.0" prefWidth="286.0" text="Your Recent Sells" textFill="GREEN">
+      <Label layoutX="421.0" layoutY="103.0" prefHeight="51.0" prefWidth="286.0" text="Your Recent Sells" textFill="#263238">
          <font>
             <Font size="27.0" />
          </font>
@@ -138,7 +138,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
          <graphic>
-            <FontAwesomeIconView fx:id="btnIcon" fill="GREEN" glyphName="QUESTION" size="30" />
+            <FontAwesomeIconView fx:id="btnIcon" fill="#263238" glyphName="QUESTION" size="30" />
          </graphic>
          <font>
             <Font size="15.0" />

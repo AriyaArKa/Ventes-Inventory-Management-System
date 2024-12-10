@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.TransactionListController">
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #C8E1F5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.TransactionListController">
    <children>
       <AnchorPane layoutX="-9.0" layoutY="-9.0" prefHeight="85.0" prefWidth="1169.0" style="-fx-background-color: #253238;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -62,12 +62,12 @@
             <DropShadow blurType="TWO_PASS_BOX" height="18.03" radius="7.775" spread="0.1" width="15.07" />
          </effect>
       </TableView>
-      <Label fx:id="lblCategory" alignment="CENTER" layoutX="179.0" layoutY="108.0" prefHeight="51.0" prefWidth="294.0" text="Transaction/Purchase" textFill="GREEN">
+      <Label fx:id="lblCategory" alignment="CENTER" layoutX="179.0" layoutY="108.0" prefHeight="51.0" prefWidth="294.0" text="Transaction/Purchase" textFill="#263238">
          <font>
             <Font size="27.0" />
          </font>
       </Label>
-      <Label fx:id="lblCategory1" alignment="CENTER" layoutX="729.0" layoutY="108.0" prefHeight="51.0" prefWidth="294.0" text="Transaction/Rental" textFill="GREEN">
+      <Label fx:id="lblCategory1" alignment="CENTER" layoutX="729.0" layoutY="108.0" prefHeight="51.0" prefWidth="294.0" text="Transaction/Rental" textFill="#263238">
          <font>
             <Font size="27.0" />
          </font>
