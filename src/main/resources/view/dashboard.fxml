@@ -105,18 +105,18 @@
       </AnchorPane>
       <Pane layoutX="75.0" layoutY="137.0" prefHeight="240.0" prefWidth="225.0">
          <children>
-            <JFXButton fx:id="btnTodaySell" buttonType="RAISED" contentDisplay="TOP" layoutX="35.0" layoutY="23.0" onAction="#showSell" prefHeight="154.0" prefWidth="160.0" ripplerFill="GREEN" stylesheets="@../css/dashboard.css" text="Sells">
+            <JFXButton fx:id="btnTodaySell" buttonType="RAISED" contentDisplay="TOP" layoutX="35.0" layoutY="23.0" onAction="#showSell" prefHeight="154.0" prefWidth="160.0" ripplerFill="#263238" stylesheets="@../css/dashboard.css" text="Sells">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
                <graphic>
-                  <FontAwesomeIconView fill="#16861c" glyphName="MONEY" size="30" wrappingWidth="30.571430206298828" />
+                  <FontAwesomeIconView fill="#263238" glyphName="MONEY" size="30" wrappingWidth="30.571430206298828" />
                </graphic>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <Label fx:id="lblTodaySellCtr" alignment="CENTER" layoutX="120.0" layoutY="14.0" prefHeight="50.0" prefWidth="47.0" style="-fx-background-color: green; -fx-text-fill: white; -fx-background-radius: 30 30 30 30;" text="Label">
+            <Label fx:id="lblTodaySellCtr" alignment="CENTER" layoutX="120.0" layoutY="14.0" prefHeight="50.0" prefWidth="47.0" style="-fx-background-color: #263238; -fx-text-fill: white; -fx-background-radius: 30 30 30 30;" text="Label">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
@@ -130,13 +130,13 @@
                               <Font name="System Bold" size="20.0" />
                            </font>
                            <graphic>
-                              <FontAwesomeIconView fill="#16861c" glyphName="RECYCLE" size="30" />
+                              <FontAwesomeIconView fill="#263238" glyphName="RECYCLE" size="30" />
                            </graphic>
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor>
                         </JFXButton>
-            <Label fx:id="lblTodaysRentalCtr" alignment="CENTER" layoutX="120.0" layoutY="14.0" prefHeight="50.0" prefWidth="47.0" style="-fx-background-color: green; -fx-text-fill: white; -fx-background-radius: 30 30 30 30;" text="Label">
+            <Label fx:id="lblTodaysRentalCtr" alignment="CENTER" layoutX="120.0" layoutY="14.0" prefHeight="50.0" prefWidth="47.0" style="-fx-background-color: #263238; -fx-text-fill: white; -fx-background-radius: 30 30 30 30;" text="Label">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
